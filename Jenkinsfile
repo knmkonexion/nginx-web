@@ -6,7 +6,7 @@ pipeline {
     registry = 'knmkonexion'
     registryCredential = 'kasey-dockerhub'
     dockerImage = ''
-    IMAGE_NAME = 'nginx-site'
+    IMAGE_NAME = 'nginx-web'
     IMAGE_VERSION = 'latest'
   }
 

@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx-site
-        image: knmkonexion/nginx-site:latest
+        image: knmkonexion/nginx-web:latest
         ports:
         - containerPort: 80

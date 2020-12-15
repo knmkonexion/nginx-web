@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   nginx-site:
-    image: knmkonexion/nginx-site:latest
+    image: knmkonexion/nginx-web:latest
     ports:
       - 9090:80
     container_name: nginx-site
