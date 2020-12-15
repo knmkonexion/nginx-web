@@ -31,7 +31,7 @@ pipeline {
       }
       steps {
         sh """
-          cat /usr/share/nginx/html
+          ls -alh /usr/share/nginx/html
         """
       }
     }
