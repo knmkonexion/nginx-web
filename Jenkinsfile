@@ -31,7 +31,7 @@ pipeline {
       }
       steps {
         sh """
-          curl localhost:80
+          cat /usr/share/nginx/html
         """
       }
     }
