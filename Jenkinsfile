@@ -7,7 +7,7 @@ pipeline {
     registryCredential = 'kasey-dockerhub'
     dockerImage = ''
     IMAGE_NAME = 'nginx-web'
-    IMAGE_VERSION = 'latest'
+    IMAGE_VERSION = 'dev-0.0.1'
   }
 
   stages {
